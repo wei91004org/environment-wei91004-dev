@@ -12,15 +12,14 @@ cluster:
   gitName: github
   gitServer: https://github.com
   namespace: jx
-  project: jenkinsx0305
+  project: jenkinx0305
   provider: gke
-  registry: gcr.io
   zone: us-west1-b
 environments:
 - ingress:
-    domain: 35.185.248.218.nip.io
+    domain: ""
     externalDNS: false
-    namespaceSubDomain: -jx.
+    namespaceSubDomain: ""
     tls:
       email: ""
       enabled: false
@@ -49,7 +48,7 @@ environments:
   repository: environment-wei91004-production
 gitops: true
 ingress:
-  domain: 35.185.248.218.nip.io
+  domain: ""
   externalDNS: false
   namespaceSubDomain: -jx.
   tls:

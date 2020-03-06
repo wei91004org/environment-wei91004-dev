@@ -1,0 +1,10 @@
+adminUser:
+  password: local:wei91004/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: fakeemail007@gmail.com
+  token: local:wei91004/pipelineUser:token
+  username: wei91007
+prow:
+  hmacToken: local:wei91004/prow:hmacToken
