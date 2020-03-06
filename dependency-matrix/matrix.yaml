@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/wei91004org/widgetsweb.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: wei91007
+  repo: skiapp
+  url: https://github.com/wei91007/skiapp.git
+  version: ""
+  versionURL: ""
