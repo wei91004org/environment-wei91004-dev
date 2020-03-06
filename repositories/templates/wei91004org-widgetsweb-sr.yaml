@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: wei91004org
+    provider: github
+    repository: widgetsweb
+  name: wei91004org-widgetsweb
+spec:
+  description: Imported application for wei91004org/widgetsweb
+  httpCloneURL: https://github.com/wei91004org/widgetsweb.git
+  org: wei91004org
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: widgetsweb
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/wei91004org/widgetsweb.git
